@@ -70,6 +70,7 @@ This project introduces **semantic fidelity** as a new evaluation objective and 
 - ~30 responses per pair
 - Quality control via "trap" images
 
+The code to execute a user study like this one can be found here: https://github.com/Haradai/FunUserStudy
 ---
 
 ## 🌍 Global Semantic Fidelity Evaluation
@@ -147,7 +148,7 @@ A regressor model inspired by LPIPS but uses **ResNet-50 backbones** (CLIP vs. I
 - **Non-symmetric:** Full vocabulary  
 - **Nouns2Ref:** Restricted to noun-based references
 
-<img src="README_IMS/Splice_approaches" alt="Impainting Dataset Example" width="80%" />
+<img src="README_IMS/Splice_approaches.png" alt="Impainting Dataset Example" width="80%" />
 
 **Outcome:**  
 Unstable and did not outperform direct intra-modal cosine similarity from CLIP.
