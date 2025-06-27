@@ -16,7 +16,7 @@ This project introduces **semantic fidelity** as a new evaluation objective and 
 ---
 
 ## 📷 Problem Illustration
-<img src="README_IMS/Smeandiffexample.png" alt="Impainting Dataset Example" width="25%" />
+<img src="README_IMS/Smeandiffexample.png" alt="Impainting Dataset Example" width="75%" />
 
 > *Example: The red cigarette box (left) becomes a velvet cake (right) — a semantic shift not caught by classic metrics like PSNR or SSIM.*
 
@@ -38,7 +38,7 @@ This project introduces **semantic fidelity** as a new evaluation objective and 
 
 **Example:**
 
-<img src="README_IMS/Impainting_dataset_example.png" alt="Impainting Dataset Example" width="25%" />
+<img src="README_IMS/Impainting_dataset_example.png" alt="Impainting Dataset Example" width="75%" />
 
 ---
 
@@ -64,7 +64,7 @@ This project introduces **semantic fidelity** as a new evaluation objective and 
 
 **Interface Preview:**
 
-<img src="README_IMS/userstudy.png" alt="Impainting Dataset Example" width="25%" />
+<img src="README_IMS/userstudy.png" alt="Impainting Dataset Example" width="75%" />
 
 - 300 image pairs
 - ~30 responses per pair
@@ -89,7 +89,7 @@ A regressor model inspired by LPIPS but uses **ResNet-50 backbones** (CLIP vs. I
 - Compute MSE between corresponding layers
 - Aggregate with linear layers to produce a final semantic fidelity score
 
-<img src="README_IMS/CLIPLPIPSREG.png" alt="Impainting Dataset Example" width="20%" />
+<img src="README_IMS/CLIPLPIPSREG.png" alt="Impainting Dataset Example" width="80%" />
 
 ---
 
@@ -113,7 +113,7 @@ A regressor model inspired by LPIPS but uses **ResNet-50 backbones** (CLIP vs. I
 - Region captioning: **VIP-LLava**
 - Generate pixel-wise semantic maps using caption embeddings
 
-<img src="README_IMS/Semmappipe.png" alt="Impainting Dataset Example" width="20%" />
+<img src="README_IMS/Semmappipe.png" alt="Impainting Dataset Example" width="80%" />
 
 ---
 
@@ -125,7 +125,7 @@ A regressor model inspired by LPIPS but uses **ResNet-50 backbones** (CLIP vs. I
 
 **Architecture:**
 
-<img src="README_IMS/CLUmodel.png" alt="Impainting Dataset Example" width="20%" />
+<img src="README_IMS/CLUmodel.png" alt="Impainting Dataset Example" width="80%" />
 
 ### 📉 Local Method Limitations
 
@@ -147,7 +147,7 @@ A regressor model inspired by LPIPS but uses **ResNet-50 backbones** (CLIP vs. I
 - **Non-symmetric:** Full vocabulary  
 - **Nouns2Ref:** Restricted to noun-based references
 
-<img src="README_IMS/Splice_approaches" alt="Impainting Dataset Example" width="20%" />
+<img src="README_IMS/Splice_approaches" alt="Impainting Dataset Example" width="80%" />
 
 **Outcome:**  
 Unstable and did not outperform direct intra-modal cosine similarity from CLIP.
