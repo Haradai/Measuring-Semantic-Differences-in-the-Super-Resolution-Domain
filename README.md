@@ -71,6 +71,7 @@ This project introduces **semantic fidelity** as a new evaluation objective and 
 - Quality control via "trap" images
 
 The code to execute a user study like this one can be found here: https://github.com/Haradai/FunUserStudy
+
 ---
 
 ## 🌍 Global Semantic Fidelity Evaluation
